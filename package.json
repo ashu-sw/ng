@@ -1,0 +1,14 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "build"
+  },
+  "author": "Ashutosh",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}

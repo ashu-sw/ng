@@ -1,0 +1,35 @@
+body {
+  background: #ccc; }
+
+.phonebook-app select, .phonebook-app input {
+  background: #fff; }
+
+.phonebook-app input {
+  width: 155px; }
+
+.phonebook-app ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 50px 50px 0; }
+
+.phonebook-app .phonebook-result {
+  margin: 0;
+  position: absolute;
+  z-index: 2;
+  background: #fff;
+  border: 1px solid #ccc; }
+  .phonebook-app .phonebook-result li {
+    padding: 10px;
+    margin: 0; }
+    .phonebook-app .phonebook-result li:hover {
+      color: #0096e6; }
+
+.phonebook-app .phonebook-api-edit {
+  display: none;
+  cursor: pointer; }
+
+.phonebook-app .phonebook tr:hover .phonebook-api-edit {
+  display: block; }
+
+.phonebook-app .phonebook tr td {
+  width: 20%; }

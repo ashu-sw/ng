@@ -1,0 +1,47 @@
+// styles.scss
+body{
+background: #ccc;
+}
+.phonebook-app{
+  select, input{
+    background: #fff;
+  }
+  input {
+    width: 155px;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 50px 50px 0;
+  }
+  .phonebook-result{
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    border: 1px solid #ccc;
+    li{
+      padding: 10px;
+      margin: 0;
+      &:hover{
+        color: #0096e6;
+      }
+    }
+  }
+  .phonebook-api-edit{
+    display: none;
+    cursor: pointer;
+  }
+  .phonebook{
+    tr{
+      &:hover{
+        .phonebook-api-edit{
+          display: block;
+        }
+      }
+      td{
+        width: 20%;
+      }
+    }
+  }
+}
